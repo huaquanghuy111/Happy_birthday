@@ -23,12 +23,12 @@
       </p>
     </div>
     <div class="music">
-      <embed
-        src="./audio/rap-beat-happy-birthday-to-you-new-hip-hop-beat-of-2020.mp3"
-        loop="true"
-        autostart="true"
-        hidden="true"
-      />
+      <audio autoplay loop hidden>
+        <source
+          src="./audio/rap-beat-happy-birthday-to-you-new-hip-hop-beat-of-2020.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
     </div>
     <!-- <button class="hide">Hide</button>
     <button class="show">show</button> -->
@@ -47,7 +47,7 @@
 
     // Countdown timer
     // Set the date we're counting down to
-    var countDownDate = new Date("April 29, 2023 00:00:00").getTime()
+    var countDownDate = new Date("April 28, 2023 14:07:00").getTime()
 
     // Update the count down every 1 second
     var x = setInterval(function () {
